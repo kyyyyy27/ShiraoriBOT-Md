@@ -100,7 +100,7 @@ module.exports = {
                     if (!isNumber(user.warning)) user.warning = 0
                 } else global.db.data.users[m.sender] = {
                     exp: 0,
-                    limit: 10,
+                    limit: 5,
                     lastclaim: 0,
                     registered: false,
                     name: m.name,
