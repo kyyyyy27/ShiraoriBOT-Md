@@ -6,19 +6,19 @@ let moment = require('moment-timezone')
 const defaultMenu = {
   before: `
 ╭────ꕥ %me ꕥ────
-│✾ Version: %version
-│✾ Library: Baileys-MD
-│✾ Mode: ${global.opts['self'] ? 'Self' : 'publik'}
-│✾ Runtime: %uptime
+│♨️ Version: %version
+│📊 Library: Baileys-MD
+│🔎 Mode: ${global.opts['self'] ? 'Self' : 'publik'}
+│⌚ Runtime: %uptime
 ╰❑
 ╭─❑ 「 INFO USER 」 ❑──
-│ ✾ Name: %name
-│ ✾ Status: ${premium ? 'Premium' : 'Free'}
-│ ✾ Limit: %limit
-│ ✾ Money: %money
-│ ✾ Exp: %totalexp
-│ ✾ Level: %level
-│ ✾ Role: %role
+│ 🗣️ Name: %name
+│ 💻 Status: ${premium ? 'Premium' : 'Free'}
+│ ⛔ Limit: %limit
+│ 💲 Money: %money
+│ 🏧 Exp: %totalexp
+│ 📊 Level: %level
+│ 🔴 Role: %role
 ╰❑
 ╭─❑ 「 INFORMASI 」 ❑──
 │ Bot ini masih tahap beta
